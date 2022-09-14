@@ -1,0 +1,10 @@
+body{
+    background-color: crimson;
+    color: greenyellow;
+    font-size: 25px;
+}
+.background{
+    background-color: aqua;
+    padding: 5px 5px;
+    color: yellowgreen;
+}
