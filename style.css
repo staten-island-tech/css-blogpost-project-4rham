@@ -1,10 +1,110 @@
-body{
-    background-color: crimson;
-    color: greenyellow;
-    font-size: 25px;
+body {
+  background-color: crimson;
+  color: teal;
+  font-size: 25px;
+  height: 50vh;
+  font-family: "Playfair Display", serif;
 }
-.background{
-    background-color: aqua;
-    padding: 5px 5px;
-    color: yellowgreen;
+
+span {
+  color: bisque;
+}
+
+.background {
+  background-image: url(https://pembridgecap.com/wp-content/uploads/2020/11/nintendo-logo.original.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.head {
+  text-align: center;
+  margin-top: 50p;
+  border: 3px solid lightcoral;
+  padding: 5px;
+  color: gainsboro;
+}
+
+.head2 {
+  text-align: center;
+  margin-top: 50p;
+  background-color: gainsboro;
+  color: crimson;
+  padding: 5px;
+  margin: 325px;
+}
+
+#game1 {
+  text-align: center;
+  margin-top: 50p;
+  background-color: lightblue;
+  padding: 5px;
+  margin: 50px;
+}
+
+#game2 {
+  text-align: center;
+  margin-top: 50p;
+  background-color: lightblue;
+  padding: 5px;
+  margin: 50px;
+}
+
+#game3 {
+  text-align: center;
+  margin-top: 50p;
+  background-color: lightblue;
+  padding: 5px;
+  margin: 50px;
+}
+
+.tear {
+  margin-left: 50%;
+  transform: translate(-50%);
+background-color: lightcoral;
+padding: 50px 40px;
+border-radius: 20px;
+}
+
+.king {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  background-color: lightcoral;
+  padding: 50px 40px;
+  border-radius: 20px;
+}
+
+.tear2 {
+  margin-left: 50%;
+  transform: translate(-50%);
+  background-color: lightgreen;
+padding: 50px 40px;
+border-radius: 20px;
+}
+
+.king2 {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  background-color: lightgreen;
+padding: 50px 40px;
+border-radius: 20px;
+}
+
+.tear3 {
+  margin-left: 50%;
+  transform: translate(-50%);
+  background-color: lightskyblue;
+padding: 50px 40px;
+border-radius: 20px;
+}
+
+.king3 {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  background-color: lightskyblue;
+padding: 50px 40px;
+border-radius: 20px;
 }
