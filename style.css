@@ -4,6 +4,7 @@ body {
   font-size: 25px;
   height: 50vh;
   font-family: "Playfair Display", serif;
+  overflow-x: hidden;
 }
 
 span {
@@ -59,8 +60,8 @@ span {
 }
 
 .tear {
-  margin-left: 50%;
-  transform: translate(-50%);
+display: block;
+margin: 10px auto;
 background-color: lightcoral;
 padding: 50px 40px;
 border-radius: 20px;
@@ -76,8 +77,8 @@ border-radius: 20px;
 }
 
 .tear2 {
-  margin-left: 50%;
-  transform: translate(-50%);
+  display: block;
+  margin: 10px auto;
   background-color: lightgreen;
 padding: 50px 40px;
 border-radius: 20px;
@@ -93,8 +94,8 @@ border-radius: 20px;
 }
 
 .tear3 {
-  margin-left: 50%;
-  transform: translate(-50%);
+  display: block;
+  margin: 10px auto;
   background-color: lightskyblue;
 padding: 50px 40px;
 border-radius: 20px;
